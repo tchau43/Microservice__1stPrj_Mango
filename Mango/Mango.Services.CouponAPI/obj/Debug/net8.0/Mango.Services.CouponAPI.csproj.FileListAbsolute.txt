@@ -145,3 +145,4 @@ D:\Code\CompileFile\Microservices\Mango\Mango\Mango.Services.CouponAPI\bin\Debug
 D:\Code\CompileFile\Microservices\Mango\Mango\Mango.Services.CouponAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 D:\Code\CompileFile\Microservices\Mango\Mango\Mango.Services.CouponAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\Code\CompileFile\Microservices\Mango\Mango\Mango.Services.CouponAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Code\CompileFile\Microservices\Mango\Mango\Mango.Services.CouponAPI\obj\Debug\net8.0\Mango.Services.CouponAPI.sourcelink.json
