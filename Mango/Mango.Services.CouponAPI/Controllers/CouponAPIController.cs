@@ -2,6 +2,7 @@
 using Mango.Services.CouponAPI.Data;
 using Mango.Services.CouponAPI.Models;
 using Mango.Services.CouponAPI.Models.Dto;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Mango.Services.CouponAPI.Controllers
@@ -9,6 +10,7 @@ namespace Mango.Services.CouponAPI.Controllers
     [Route("api/[controller]")]
     //[Route("api/asd")]
     [ApiController]
+    [Authorize]
     public class CouponAPIController : ControllerBase
     {
         private readonly AppDbContext _db;
@@ -28,7 +30,6 @@ namespace Mango.Services.CouponAPI.Controllers
             try
             {
                 IEnumerable<Coupon> objList = _db.Coupons.ToList();
-                _mapper.Map<IEnumerable<CouponDto>>(objList);
                 _responseDto.Result = objList;
             }
             catch (Exception ex)
@@ -72,6 +73,7 @@ namespace Mango.Services.CouponAPI.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "ADMIN")]
         public IActionResult Post(CouponDto model)
         {
             try
@@ -79,6 +81,7 @@ namespace Mango.Services.CouponAPI.Controllers
                 Coupon obj = _mapper.Map<Coupon>(model);
                 _db.Coupons.Add(obj);
                 _db.SaveChanges();
+
                 _responseDto.Result = obj;
             }
             catch (Exception ex)
@@ -90,6 +93,7 @@ namespace Mango.Services.CouponAPI.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "ADMIN")]
         public IActionResult Put(int id, CouponDto model)
         {
             if (id != model.CouponId)
@@ -116,6 +120,7 @@ namespace Mango.Services.CouponAPI.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "ADMIN")]
         public IActionResult Delete(int id)
         {
             try
