@@ -149,3 +149,7 @@ D:\Code\CompileFile\Microservices\Mango\Mango\Mango.Services.AuthAPI\obj\Debug\n
 D:\Code\CompileFile\Microservices\Mango\Mango\Mango.Services.AuthAPI\obj\Debug\net8.0\Mango.Services.AuthAPI.pdb
 D:\Code\CompileFile\Microservices\Mango\Mango\Mango.Services.AuthAPI\obj\Debug\net8.0\Mango.Services.AuthAPI.genruntimeconfig.cache
 D:\Code\CompileFile\Microservices\Mango\Mango\Mango.Services.AuthAPI\obj\Debug\net8.0\ref\Mango.Services.AuthAPI.dll
+D:\Code\CompileFile\Microservices\Mango\Mango\Mango.Services.AuthAPI\bin\Debug\net8.0\Mango.Services.AuthAPI.staticwebassets.endpoints.json
+D:\Code\CompileFile\Microservices\Mango\Mango\Mango.Services.AuthAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Code\CompileFile\Microservices\Mango\Mango\Mango.Services.AuthAPI\obj\Debug\net8.0\staticwebassets\msbuild.Mango.Services.AuthAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Code\CompileFile\Microservices\Mango\Mango\Mango.Services.AuthAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
