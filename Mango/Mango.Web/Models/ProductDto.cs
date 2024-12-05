@@ -11,9 +11,11 @@ namespace Mango.Web.Models
         public string ProductCategoryName { get; set; }
         public string ProductImageUrl { get; set; }
 		//public string? ProductImageLocalPath { get; set; }
+		[Range(1, 100)]
+		public int ProductCount { get; set; } = 1;
 
 		//[MaxFileSize(1)]
 		//[AllowedExtensions(new string[] { ".jpg", ".png" })]
 		//public IFormFile? ProductImage { get; set; }
-    }
+	}
 }

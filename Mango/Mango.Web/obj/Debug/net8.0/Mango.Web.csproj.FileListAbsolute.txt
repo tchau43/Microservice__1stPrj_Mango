@@ -37,3 +37,7 @@ D:\Code\CompileFile\Microservices\Mango\Mango\Mango.Web\bin\Debug\net8.0\Microso
 D:\Code\CompileFile\Microservices\Mango\Mango\Mango.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
 D:\Code\CompileFile\Microservices\Mango\Mango\Mango.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 D:\Code\CompileFile\Microservices\Mango\Mango\Mango.Web\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Code\CompileFile\Microservices\Mango\Mango\Mango.Web\bin\Debug\net8.0\Mango.Web.staticwebassets.endpoints.json
+D:\Code\CompileFile\Microservices\Mango\Mango\Mango.Web\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Code\CompileFile\Microservices\Mango\Mango\Mango.Web\obj\Debug\net8.0\staticwebassets\msbuild.Mango.Web.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Code\CompileFile\Microservices\Mango\Mango\Mango.Web\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
