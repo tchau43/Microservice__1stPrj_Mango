@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\CompileFile\\Microservices\\Mango\\Mango\\Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj": {}
+    "D:\\Code\\CompileFile\\C#\\Microservices\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj": {}
   },
   "projects": {
-    "D:\\Code\\CompileFile\\Microservices\\Mango\\Mango\\Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj": {
+    "D:\\Code\\CompileFile\\C#\\Microservices\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\CompileFile\\Microservices\\Mango\\Mango\\Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj",
+        "projectUniqueName": "D:\\Code\\CompileFile\\C#\\Microservices\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj",
         "projectName": "Mango.Services.AuthAPI",
-        "projectPath": "D:\\Code\\CompileFile\\Microservices\\Mango\\Mango\\Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj",
+        "projectPath": "D:\\Code\\CompileFile\\C#\\Microservices\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj",
         "packagesPath": "C:\\Users\\royal\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\CompileFile\\Microservices\\Mango\\Mango\\Mango.Services.AuthAPI\\obj\\",
+        "outputPath": "D:\\Code\\CompileFile\\C#\\Microservices\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.AuthAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Code\\VisualStudio\\Microsoft Visual Studio\\Shared\\NuGetPackages"
