@@ -13,29 +13,29 @@
                         <label class="control-label pt-2" style="font-size:20px;"> Name</label>
                     </div>
                     <div class="col-10 pb-3">
-                        <input asp-for="ProductName" class="form-control" />
-                        <span asp-validation-for="ProductName" class="text-danger"></span>
+                        <input asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
                     </div>
                     <div class="col-2">
                         <label class="control-label pt-2" style="font-size:20px;">Category Name</label>
                     </div>
                     <div class="col-10 pb-3">
-                        <input asp-for="ProductCategoryName" class="form-control" />
-                        <span asp-validation-for="ProductCategoryName" class="text-danger"></span>
+                        <input asp-for="CategoryName" class="form-control" />
+                        <span asp-validation-for="CategoryName" class="text-danger"></span>
                     </div>
                     <div class="col-2">
                         <label class="control-label pt-2" style="font-size:20px;">Description</label>
                     </div>
                     <div class="col-10 pb-3">
-                        <textarea asp-for="ProductDescription" class="form-control" rows="5"></textarea>
-                        <span asp-validation-for="ProductDescription" class="text-danger"></span>
+                        <textarea asp-for="Description" class="form-control" rows="5"></textarea>
+                        <span asp-validation-for="Description" class="text-danger"></span>
                     </div>
                     <div class="col-2">
                         <label class="control-label pt-2" style="font-size:20px;">Price</label>
                     </div>
                     <div class="col-10 pb-3">
-                        <input asp-for="ProductPrice" class="form-control" />
-                        <span asp-validation-for="ProductPrice" class="text-danger"></span>
+                        <input asp-for="Price" class="form-control" />
+                        <span asp-validation-for="Price" class="text-danger"></span>
                     </div>
                     <div class="col-2">
                         <label class="control-label pt-2" style="font-size:20px;">ImageUrl</label>
@@ -45,8 +45,8 @@
                         <input asp-for="ProductImageUrl" hidden class="form-control" />
                         <input asp-for="ProductImageLocalPath" hidden class="form-control" />
                         <span asp-validation-for="ProductImage" class="text-danger"></span> *@
-                        <input asp-for="ProductImageUrl" class="form-control" />
-                        <span asp-validation-for="ProductImageUrl" class="text-danger"></span>
+                        <input asp-for="ImageUrl" class="form-control" />
+                        <span asp-validation-for="ImageUrl" class="text-danger"></span>
                     </div>
 
                     <div class="col-5 offset-2">
@@ -60,7 +60,7 @@
                 </div>
             </div>
             <div class="col-2">
-                <img src="@Model.ProductImageUrl" class="w-100" alt="" />
+                <img src="@Model.ImageUrl" class="w-100" alt="" />
             </div>
         </div>
     </div>
