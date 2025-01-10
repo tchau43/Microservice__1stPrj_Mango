@@ -70,24 +70,38 @@
         },
         "responses": {
           "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/ResponseDto"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ResponseDto"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ResponseDto"
-                }
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/CartAPI/EmailCartRequest": {
+      "post": {
+        "tags": [
+          "CartAPI"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CartDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CartDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CartDto"
               }
             }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
           }
         }
       }
@@ -260,6 +274,18 @@
           "cartTotal": {
             "type": "number",
             "format": "double"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "phone": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -271,23 +297,23 @@
             "type": "integer",
             "format": "int32"
           },
-          "productName": {
+          "name": {
             "type": "string",
             "nullable": true
           },
-          "productPrice": {
+          "price": {
             "type": "number",
             "format": "double"
           },
-          "productDescription": {
+          "description": {
             "type": "string",
             "nullable": true
           },
-          "productCategoryName": {
+          "categoryName": {
             "type": "string",
             "nullable": true
           },
-          "productImageUrl": {
+          "imageUrl": {
             "type": "string",
             "nullable": true
           }

@@ -29,23 +29,25 @@ namespace Mango.Services.ProductAPI.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProductId"));
 
-                    b.Property<string>("ProductCategoryName")
+                    b.Property<string>("CategoryName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ProductDescription")
+                    b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ProductImageUrl")
+                    b.Property<string>("ImageLocalPath")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ProductName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<double>("ProductPrice")
+                    b.Property<double>("Price")
                         .HasColumnType("float");
 
                     b.HasKey("ProductId");
@@ -56,38 +58,38 @@ namespace Mango.Services.ProductAPI.Migrations
                         new
                         {
                             ProductId = 1,
-                            ProductCategoryName = "Appetizer",
-                            ProductDescription = " Quisque vel lacus ac magna, vehicula sagittis ut non lacus.<br/> Vestibulum arcu turpis, maximus malesuada neque. Phasellus commodo cursus pretium.",
-                            ProductImageUrl = "https://placehold.co/603x403",
-                            ProductName = "Samosa",
-                            ProductPrice = 15.0
+                            CategoryName = "Appetizer",
+                            Description = " Quisque vel lacus ac magna, vehicula sagittis ut non lacus.<br/> Vestibulum arcu turpis, maximus malesuada neque. Phasellus commodo cursus pretium.",
+                            ImageUrl = "https://placehold.co/603x403",
+                            Name = "Samosa",
+                            Price = 15.0
                         },
                         new
                         {
                             ProductId = 2,
-                            ProductCategoryName = "Appetizer",
-                            ProductDescription = " Quisque vel lacus ac magna, vehicula sagittis ut non lacus.<br/> Vestibulum arcu turpis, maximus malesuada neque. Phasellus commodo cursus pretium.",
-                            ProductImageUrl = "https://placehold.co/602x402",
-                            ProductName = "Paneer Tikka",
-                            ProductPrice = 13.99
+                            CategoryName = "Appetizer",
+                            Description = " Quisque vel lacus ac magna, vehicula sagittis ut non lacus.<br/> Vestibulum arcu turpis, maximus malesuada neque. Phasellus commodo cursus pretium.",
+                            ImageUrl = "https://placehold.co/602x402",
+                            Name = "Paneer Tikka",
+                            Price = 13.99
                         },
                         new
                         {
                             ProductId = 3,
-                            ProductCategoryName = "Dessert",
-                            ProductDescription = " Quisque vel lacus ac magna, vehicula sagittis ut non lacus.<br/> Vestibulum arcu turpis, maximus malesuada neque. Phasellus commodo cursus pretium.",
-                            ProductImageUrl = "https://placehold.co/601x401",
-                            ProductName = "Sweet Pie",
-                            ProductPrice = 10.99
+                            CategoryName = "Dessert",
+                            Description = " Quisque vel lacus ac magna, vehicula sagittis ut non lacus.<br/> Vestibulum arcu turpis, maximus malesuada neque. Phasellus commodo cursus pretium.",
+                            ImageUrl = "https://placehold.co/601x401",
+                            Name = "Sweet Pie",
+                            Price = 10.99
                         },
                         new
                         {
                             ProductId = 4,
-                            ProductCategoryName = "Entree",
-                            ProductDescription = " Quisque vel lacus ac magna, vehicula sagittis ut non lacus.<br/> Vestibulum arcu turpis, maximus malesuada neque. Phasellus commodo cursus pretium.",
-                            ProductImageUrl = "https://placehold.co/600x400",
-                            ProductName = "Pav Bhaji",
-                            ProductPrice = 15.0
+                            CategoryName = "Entree",
+                            Description = " Quisque vel lacus ac magna, vehicula sagittis ut non lacus.<br/> Vestibulum arcu turpis, maximus malesuada neque. Phasellus commodo cursus pretium.",
+                            ImageUrl = "https://placehold.co/600x400",
+                            Name = "Pav Bhaji",
+                            Price = 15.0
                         });
                 });
 #pragma warning restore 612, 618

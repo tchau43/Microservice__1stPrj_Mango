@@ -16,38 +16,38 @@ namespace Mango.Services.ProductAPI.Data
             modelBuilder.Entity<Product>().HasData(new Product
             {
                 ProductId = 1,
-                ProductName = "Samosa",
-                ProductPrice = 15,
-                ProductDescription = " Quisque vel lacus ac magna, vehicula sagittis ut non lacus.<br/> Vestibulum arcu turpis, maximus malesuada neque. Phasellus commodo cursus pretium.",
-                ProductImageUrl = "https://placehold.co/603x403",
-                ProductCategoryName = "Appetizer"
+                Name = "Samosa",
+                Price = 15,
+                Description = " Quisque vel lacus ac magna, vehicula sagittis ut non lacus.<br/> Vestibulum arcu turpis, maximus malesuada neque. Phasellus commodo cursus pretium.",
+                ImageUrl = "https://placehold.co/603x403",
+                CategoryName = "Appetizer"
             });
             modelBuilder.Entity<Product>().HasData(new Product
             {
                 ProductId = 2,
-                ProductName = "Paneer Tikka",
-                ProductPrice = 13.99,
-                ProductDescription = " Quisque vel lacus ac magna, vehicula sagittis ut non lacus.<br/> Vestibulum arcu turpis, maximus malesuada neque. Phasellus commodo cursus pretium.",
-                ProductImageUrl = "https://placehold.co/602x402",
-                ProductCategoryName = "Appetizer"
+                Name = "Paneer Tikka",
+                Price = 13.99,
+                Description = " Quisque vel lacus ac magna, vehicula sagittis ut non lacus.<br/> Vestibulum arcu turpis, maximus malesuada neque. Phasellus commodo cursus pretium.",
+                ImageUrl = "https://placehold.co/602x402",
+                CategoryName = "Appetizer"
             });
             modelBuilder.Entity<Product>().HasData(new Product
             {
                 ProductId = 3,
-                ProductName = "Sweet Pie",
-                ProductPrice = 10.99,
-                ProductDescription = " Quisque vel lacus ac magna, vehicula sagittis ut non lacus.<br/> Vestibulum arcu turpis, maximus malesuada neque. Phasellus commodo cursus pretium.",
-                ProductImageUrl = "https://placehold.co/601x401",
-                ProductCategoryName = "Dessert"
+                Name = "Sweet Pie",
+                Price = 10.99,
+                Description = " Quisque vel lacus ac magna, vehicula sagittis ut non lacus.<br/> Vestibulum arcu turpis, maximus malesuada neque. Phasellus commodo cursus pretium.",
+                ImageUrl = "https://placehold.co/601x401",
+                CategoryName = "Dessert"
             });
             modelBuilder.Entity<Product>().HasData(new Product
             {
                 ProductId = 4,
-                ProductName = "Pav Bhaji",
-                ProductPrice = 15,
-                ProductDescription = " Quisque vel lacus ac magna, vehicula sagittis ut non lacus.<br/> Vestibulum arcu turpis, maximus malesuada neque. Phasellus commodo cursus pretium.",
-                ProductImageUrl = "https://placehold.co/600x400",
-                ProductCategoryName = "Entree"
+                Name = "Pav Bhaji",
+                Price = 15,
+                Description = " Quisque vel lacus ac magna, vehicula sagittis ut non lacus.<br/> Vestibulum arcu turpis, maximus malesuada neque. Phasellus commodo cursus pretium.",
+                ImageUrl = "https://placehold.co/600x400",
+                CategoryName = "Entree"
             });
         }
     }

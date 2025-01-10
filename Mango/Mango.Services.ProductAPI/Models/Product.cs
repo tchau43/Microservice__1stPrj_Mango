@@ -7,12 +7,12 @@ namespace Mango.Services.ProductAPI.Models
         [Key]
         public int ProductId { get; set; }
         [Required]
-        public string ProductName { get; set; }
+        public string Name { get; set; }
         [Range(1, 1000)]
-        public double ProductPrice { get; set; }
-        public string ProductDescription { get; set; }
-        public string ProductCategoryName {  get; set; }
-        public string ProductImageUrl {  get; set; }
-
+        public double Price { get; set; }
+        public string Description { get; set; }
+        public string CategoryName { get; set; }
+        public string? ImageUrl { get; set; }
+        public string? ImageLocalPath { get; set; }
     }
 }

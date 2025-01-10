@@ -441,10 +441,10 @@ D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Serv
 D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Services.ProductAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Mango.Services.ProductAPI.props
 D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Services.ProductAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Mango.Services.ProductAPI.props
 D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Services.ProductAPI\obj\Debug\net8.0\staticwebassets.pack.json
-D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Services.ProductAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Services.ProductAPI\obj\Debug\net8.0\Mango.Se.3A3FF629.Up2Date
 D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Services.ProductAPI\obj\Debug\net8.0\Mango.Services.ProductAPI.dll
 D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Services.ProductAPI\obj\Debug\net8.0\refint\Mango.Services.ProductAPI.dll
 D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Services.ProductAPI\obj\Debug\net8.0\Mango.Services.ProductAPI.pdb
 D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Services.ProductAPI\obj\Debug\net8.0\Mango.Services.ProductAPI.genruntimeconfig.cache
 D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Services.ProductAPI\obj\Debug\net8.0\ref\Mango.Services.ProductAPI.dll
+D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Services.ProductAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

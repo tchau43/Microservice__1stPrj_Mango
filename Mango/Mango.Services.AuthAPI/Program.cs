@@ -4,6 +4,12 @@ using Mango.Services.AuthAPI.Service;
 using Mango.Services.AuthAPI.Service.IService;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Mango.Services.AuthAPI.Helpers;
+using AutoMapper;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.OpenApi.Models;
+using Mango.Services.AuthAPI.Extensions;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,11 +21,45 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.Configure<JwtOptions>(builder.Configuration.GetSection("ApiSettings:JwtOptions"));
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 builder.Services.AddControllers();
+
+// Register AutoMapper
+//IMapper mapper = MappingProfile.RegisterMaps().CreateMapper();
+builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
+
 builder.Services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+// Configure Swagger with JWT Authentication
+builder.Services.AddSwaggerGen(options =>
+{
+	options.AddSecurityDefinition(JwtBearerDefaults.AuthenticationScheme, new OpenApiSecurityScheme
+	{
+		Name = "Authorization",
+		Description = "Enter 'Bearer' followed by a space and the JWT.",
+		In = ParameterLocation.Header,
+		Type = SecuritySchemeType.ApiKey,
+		Scheme = JwtBearerDefaults.AuthenticationScheme
+	});
+	options.AddSecurityRequirement(new OpenApiSecurityRequirement
+	{
+		{
+			new OpenApiSecurityScheme
+			{
+				Reference = new OpenApiReference
+				{
+					Type = ReferenceType.SecurityScheme,
+					Id = JwtBearerDefaults.AuthenticationScheme
+				}
+			},
+			new string[] {}
+		}
+	});
+});
+
+// Add Authentication and Authorization
+builder.AddAppAuthentication();
+builder.Services.AddAuthorization();
 
 var app = builder.Build();
 

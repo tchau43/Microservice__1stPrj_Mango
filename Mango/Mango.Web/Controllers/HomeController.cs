@@ -1,7 +1,7 @@
 using IdentityModel;
 using Mango.Web.Models;
-using Mango.Web.Service;
 using Mango.Web.Service.IService;
+using Mango.Web.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -13,47 +13,54 @@ namespace Mango.Web.Controllers
 	{
 		private readonly IProductService _productService;
 		private readonly ICartService _cartService;
-
 		public HomeController(IProductService productService, ICartService cartService)
 		{
 			_productService = productService;
 			_cartService = cartService;
 		}
 
+
 		public async Task<IActionResult> Index()
 		{
-			var productList = new List<ProductDto>();
-			var response = await _productService.GetAllProductAsync();
+			List<ProductDto>? list = new();
+
+			ResponseDto? response = await _productService.GetAllProductAsync();
+
 			if (response != null && response.IsSuccess)
 			{
-				productList = JsonConvert.DeserializeObject<List<ProductDto>>(Convert.ToString(response.Result));
+				list = JsonConvert.DeserializeObject<List<ProductDto>>(Convert.ToString(response.Result));
 			}
 			else
 			{
-				TempData["Error"] = response?.Message;
+				TempData["error"] = response?.Message;
 			}
-			return View(productList);
+
+			return View(list);
 		}
 
 		[Authorize]
 		public async Task<IActionResult> ProductDetails(int productId)
 		{
-			var product = new ProductDto();
-			var response = await _productService.GetProductByIdAsync(productId);
+			ProductDto? model = new();
+
+			ResponseDto? response = await _productService.GetProductByIdAsync(productId);
+
 			if (response != null && response.IsSuccess)
 			{
-				product = JsonConvert.DeserializeObject<ProductDto>(Convert.ToString(response.Result));
+				model = JsonConvert.DeserializeObject<ProductDto>(Convert.ToString(response.Result));
 			}
 			else
 			{
-				TempData["Error"] = response?.Message;
+				TempData["error"] = response?.Message;
 			}
-			return View(product);
+
+			return View(model);
 		}
+
 
 		[Authorize]
 		[HttpPost]
-		//[ActionName("ProductDetails")]
+		[ActionName("ProductDetails")]
 		public async Task<IActionResult> ProductDetails(ProductDto productDto)
 		{
 			CartDto cartDto = new CartDto()
@@ -66,7 +73,7 @@ namespace Mango.Web.Controllers
 
 			CartDetailsDto cartDetails = new CartDetailsDto()
 			{
-				Count = productDto.ProductCount,
+				Count = productDto.Count,
 				ProductId = productDto.ProductId,
 			};
 

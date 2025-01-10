@@ -456,10 +456,10 @@ D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Serv
 D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Services.AuthAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Mango.Services.AuthAPI.props
 D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Services.AuthAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Mango.Services.AuthAPI.props
 D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Services.AuthAPI\obj\Debug\net8.0\staticwebassets.pack.json
-D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Services.AuthAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Services.AuthAPI\obj\Debug\net8.0\Mango.Se.9E89EA84.Up2Date
 D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Services.AuthAPI\obj\Debug\net8.0\Mango.Services.AuthAPI.dll
 D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Services.AuthAPI\obj\Debug\net8.0\refint\Mango.Services.AuthAPI.dll
 D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Services.AuthAPI\obj\Debug\net8.0\Mango.Services.AuthAPI.pdb
 D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Services.AuthAPI\obj\Debug\net8.0\Mango.Services.AuthAPI.genruntimeconfig.cache
 D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Services.AuthAPI\obj\Debug\net8.0\ref\Mango.Services.AuthAPI.dll
+D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Services.AuthAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

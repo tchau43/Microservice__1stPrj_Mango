@@ -18,6 +18,12 @@
 	  </PackageReference>
 	  <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 	  <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+	  <PackageReference Include="xunit.extensibility.core" Version="2.9.2" />
+	  <PackageReference Include="xunit.extensibility.execution" Version="2.9.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mango.ServiceBus\Mango.ServiceBus.csproj" />
   </ItemGroup>
 
 </Project>

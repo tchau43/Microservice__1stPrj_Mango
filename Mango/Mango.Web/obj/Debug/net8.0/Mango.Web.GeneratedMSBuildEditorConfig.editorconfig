@@ -28,6 +28,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Code/CompileFile/C\#/Microservices/Microservice__1stPrj_Mango/Mango/Mango.Web/Views/Cart/CartIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDYXJ0SW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Code/CompileFile/C\#/Microservices/Microservice__1stPrj_Mango/Mango/Mango.Web/Views/Coupon/CouponIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cG9uXENvdXBvbkluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -50,6 +54,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Code/CompileFile/C\#/Microservices/Microservice__1stPrj_Mango/Mango/Mango.Web/Views/Home/ProductDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Code/CompileFile/C\#/Microservices/Microservice__1stPrj_Mango/Mango/Mango.Web/Views/Order/OrderDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcT3JkZXJEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Code/CompileFile/C\#/Microservices/Microservice__1stPrj_Mango/Mango/Mango.Web/Views/Order/OrderIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcT3JkZXJJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Code/CompileFile/C\#/Microservices/Microservice__1stPrj_Mango/Mango/Mango.Web/Views/Product/CreateProduct.cshtml]

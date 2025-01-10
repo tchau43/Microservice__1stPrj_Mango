@@ -7,10 +7,6 @@
         "Action": "Start"
       },
       {
-        "Path": "Mango.Web\\Mango.Web.csproj",
-        "Action": "Start"
-      },
-      {
         "Path": "Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj",
         "Action": "Start"
       },
@@ -20,6 +16,14 @@
       },
       {
         "Path": "Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Mango.Services.OrderAPI\\Mango.Services.OrderAPI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Mango.Web\\Mango.Web.csproj",
         "Action": "Start"
       }
     ]

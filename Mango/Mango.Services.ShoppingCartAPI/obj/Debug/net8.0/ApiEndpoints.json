@@ -13,17 +13,7 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "Mango.Services.ShoppingCartAPI.Models.Dto.ResponseDto",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Mango.Services.ShoppingCartAPI.Controllers.CartAPIController",
@@ -50,6 +40,22 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "Mango.Services.ShoppingCartAPI.Controllers.CartAPIController",
+    "Method": "EmailCartRequest",
+    "RelativePath": "api/CartAPI/EmailCartRequest",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartDto",
+        "Type": "Mango.Services.ShoppingCartAPI.Models.Dto.CartDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Mango.Services.ShoppingCartAPI.Controllers.CartAPIController",

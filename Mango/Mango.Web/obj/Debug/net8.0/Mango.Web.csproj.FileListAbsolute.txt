@@ -87,8 +87,8 @@ D:\Code\CompileFile\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Web\obj
 D:\Code\CompileFile\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Web\obj\Debug\net8.0\ref\Mango.Web.dll
 D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Web\bin\Debug\net8.0\appsettings.Development.json
 D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Web\bin\Debug\net8.0\appsettings.json
-D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Web\bin\Debug\net8.0\Mango.Web.staticwebassets.endpoints.json
 D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Web\bin\Debug\net8.0\Mango.Web.staticwebassets.runtime.json
+D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Web\bin\Debug\net8.0\Mango.Web.staticwebassets.endpoints.json
 D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Web\bin\Debug\net8.0\Mango.Web.exe
 D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Web\bin\Debug\net8.0\Mango.Web.deps.json
 D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Web\bin\Debug\net8.0\Mango.Web.runtimeconfig.json
@@ -122,10 +122,10 @@ D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Web\
 D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Web\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Mango.Web.props
 D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Web\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Mango.Web.props
 D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Web\obj\Debug\net8.0\staticwebassets.pack.json
-D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Web\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Web\obj\Debug\net8.0\Mango.Web.csproj.Up2Date
 D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Web\obj\Debug\net8.0\Mango.Web.dll
 D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Web\obj\Debug\net8.0\refint\Mango.Web.dll
 D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Web\obj\Debug\net8.0\Mango.Web.pdb
 D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Web\obj\Debug\net8.0\Mango.Web.genruntimeconfig.cache
 D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Web\obj\Debug\net8.0\ref\Mango.Web.dll
+D:\Code\CompileFile\C#\Microservices\Microservice__1stPrj_Mango\Mango\Mango.Web\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

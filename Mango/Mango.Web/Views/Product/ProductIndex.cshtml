@@ -36,13 +36,13 @@
 				{
 					<tr>
 						<td>
-							@item.ProductName
+							@item.Name
 						</td>
 						<td>
-							@item.ProductCategoryName
+							@item.CategoryName
 						</td>
 						<td>
-							@((item.ProductPrice).ToString("c"))
+							@((item.Price).ToString("c"))
 						</td>
 						<td>
 							<a class="btn btn-success" asp-action="EditProduct" asp-route-id="@item.ProductId">
