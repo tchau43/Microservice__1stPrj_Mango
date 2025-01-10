@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Js9/o2oE4KU=",
+  "dgSpecHash": "7Na4iNQH2rQ=",
   "success": true,
-  "projectFilePath": "D:\\Code\\CompileFile\\C#\\Microservices\\Microservice__1stPrj_Mango\\Mango\\Mango.Web\\Mango.Web.csproj",
+  "projectFilePath": "D:\\Code\\CompileFile\\C#\\Microservices\\New folder\\Microservice__1stPrj_Mango\\Mango\\Mango.Web\\Mango.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\royal\\.nuget\\packages\\identitymodel\\7.0.0\\identitymodel.7.0.0.nupkg.sha512",
     "C:\\Users\\royal\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.1.2\\microsoft.identitymodel.abstractions.7.1.2.nupkg.sha512",

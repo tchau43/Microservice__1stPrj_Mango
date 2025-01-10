@@ -4243,11 +4243,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\CompileFile\\C#\\Microservices\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj",
+      "projectUniqueName": "D:\\Code\\CompileFile\\C#\\Microservices\\New folder\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj",
       "projectName": "Mango.Services.ProductAPI",
-      "projectPath": "D:\\Code\\CompileFile\\C#\\Microservices\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj",
+      "projectPath": "D:\\Code\\CompileFile\\C#\\Microservices\\New folder\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj",
       "packagesPath": "C:\\Users\\royal\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\CompileFile\\C#\\Microservices\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.ProductAPI\\obj\\",
+      "outputPath": "D:\\Code\\CompileFile\\C#\\Microservices\\New folder\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.ProductAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Code\\VisualStudio\\Microsoft Visual Studio\\Shared\\NuGetPackages"

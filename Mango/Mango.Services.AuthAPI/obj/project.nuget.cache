@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fNXAKDSOHpY=",
+  "dgSpecHash": "SpvQPfSPup8=",
   "success": true,
-  "projectFilePath": "D:\\Code\\CompileFile\\C#\\Microservices\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj",
+  "projectFilePath": "D:\\Code\\CompileFile\\C#\\Microservices\\New folder\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\royal\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\royal\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

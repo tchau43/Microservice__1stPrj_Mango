@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\CompileFile\\C#\\Microservices\\Microservice__1stPrj_Mango\\Mango\\Mango.Web\\Mango.Web.csproj": {}
+    "D:\\Code\\CompileFile\\C#\\Microservices\\New folder\\Microservice__1stPrj_Mango\\Mango\\Mango.Web\\Mango.Web.csproj": {}
   },
   "projects": {
-    "D:\\Code\\CompileFile\\C#\\Microservices\\Microservice__1stPrj_Mango\\Mango\\Mango.Web\\Mango.Web.csproj": {
+    "D:\\Code\\CompileFile\\C#\\Microservices\\New folder\\Microservice__1stPrj_Mango\\Mango\\Mango.Web\\Mango.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\CompileFile\\C#\\Microservices\\Microservice__1stPrj_Mango\\Mango\\Mango.Web\\Mango.Web.csproj",
+        "projectUniqueName": "D:\\Code\\CompileFile\\C#\\Microservices\\New folder\\Microservice__1stPrj_Mango\\Mango\\Mango.Web\\Mango.Web.csproj",
         "projectName": "Mango.Web",
-        "projectPath": "D:\\Code\\CompileFile\\C#\\Microservices\\Microservice__1stPrj_Mango\\Mango\\Mango.Web\\Mango.Web.csproj",
+        "projectPath": "D:\\Code\\CompileFile\\C#\\Microservices\\New folder\\Microservice__1stPrj_Mango\\Mango\\Mango.Web\\Mango.Web.csproj",
         "packagesPath": "C:\\Users\\royal\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\CompileFile\\C#\\Microservices\\Microservice__1stPrj_Mango\\Mango\\Mango.Web\\obj\\",
+        "outputPath": "D:\\Code\\CompileFile\\C#\\Microservices\\New folder\\Microservice__1stPrj_Mango\\Mango\\Mango.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Code\\VisualStudio\\Microsoft Visual Studio\\Shared\\NuGetPackages"

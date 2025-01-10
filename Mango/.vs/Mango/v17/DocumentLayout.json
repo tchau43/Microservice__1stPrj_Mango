@@ -1,25 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Code\\CompileFile\\C#\\Microservices\\Microservice__1stPrj_Mango\\Mango\\",
+  "WorkspaceRootPath": "D:\\Code\\CompileFile\\C#\\Microservices\\New folder\\Microservice__1stPrj_Mango\\Mango\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F5452BDF-9912-4F0E-8CF8-C540E4625728}|Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj|d:\\code\\compilefile\\c#\\microservices\\microservice__1stprj_mango\\mango\\mango.services.shoppingcartapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5452BDF-9912-4F0E-8CF8-C540E4625728}|Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj|solutionrelative:mango.services.shoppingcartapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13C95074-E1B1-4E43-973D-40A118329B05}|Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj|d:\\code\\compilefile\\c#\\microservices\\microservice__1stprj_mango\\mango\\mango.services.authapi\\controllers\\authapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13C95074-E1B1-4E43-973D-40A118329B05}|Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj|solutionrelative:mango.services.authapi\\controllers\\authapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5452BDF-9912-4F0E-8CF8-C540E4625728}|Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj|d:\\code\\compilefile\\c#\\microservices\\microservice__1stprj_mango\\mango\\mango.services.shoppingcartapi\\controllers\\cartapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F5452BDF-9912-4F0E-8CF8-C540E4625728}|Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj|d:\\code\\compilefile\\c#\\microservices\\new folder\\microservice__1stprj_mango\\mango\\mango.services.shoppingcartapi\\controllers\\cartapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5452BDF-9912-4F0E-8CF8-C540E4625728}|Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj|solutionrelative:mango.services.shoppingcartapi\\controllers\\cartapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13C95074-E1B1-4E43-973D-40A118329B05}|Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj|d:\\code\\compilefile\\c#\\microservices\\microservice__1stprj_mango\\mango\\mango.services.authapi\\service\\iservice\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F5452BDF-9912-4F0E-8CF8-C540E4625728}|Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj|d:\\code\\compilefile\\c#\\microservices\\new folder\\microservice__1stprj_mango\\mango\\mango.services.shoppingcartapi\\mango.services.shoppingcartapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F5452BDF-9912-4F0E-8CF8-C540E4625728}|Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj|solutionrelative:mango.services.shoppingcartapi\\mango.services.shoppingcartapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5452BDF-9912-4F0E-8CF8-C540E4625728}|Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj|d:\\code\\compilefile\\c#\\microservices\\new folder\\microservice__1stprj_mango\\mango\\mango.services.shoppingcartapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5452BDF-9912-4F0E-8CF8-C540E4625728}|Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj|solutionrelative:mango.services.shoppingcartapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13C95074-E1B1-4E43-973D-40A118329B05}|Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj|d:\\code\\compilefile\\c#\\microservices\\new folder\\microservice__1stprj_mango\\mango\\mango.services.authapi\\controllers\\authapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13C95074-E1B1-4E43-973D-40A118329B05}|Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj|solutionrelative:mango.services.authapi\\controllers\\authapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13C95074-E1B1-4E43-973D-40A118329B05}|Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj|d:\\code\\compilefile\\c#\\microservices\\new folder\\microservice__1stprj_mango\\mango\\mango.services.authapi\\service\\iservice\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13C95074-E1B1-4E43-973D-40A118329B05}|Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj|solutionrelative:mango.services.authapi\\service\\iservice\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13C95074-E1B1-4E43-973D-40A118329B05}|Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj|d:\\code\\compilefile\\c#\\microservices\\microservice__1stprj_mango\\mango\\mango.services.authapi\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13C95074-E1B1-4E43-973D-40A118329B05}|Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj|d:\\code\\compilefile\\c#\\microservices\\new folder\\microservice__1stprj_mango\\mango\\mango.services.authapi\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13C95074-E1B1-4E43-973D-40A118329B05}|Mango.Services.AuthAPI\\Mango.Services.AuthAPI.csproj|solutionrelative:mango.services.authapi\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 205,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,36 +42,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Mango.Services.ShoppingCartAPI",
+              "DocumentMoniker": "D:\\Code\\CompileFile\\C#\\Microservices\\New folder\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj",
+              "RelativeDocumentMoniker": "Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj",
+              "ToolTip": "D:\\Code\\CompileFile\\C#\\Microservices\\New folder\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj",
+              "RelativeToolTip": "Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-10T16:08:43.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Code\\CompileFile\\C#\\Microservices\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.ShoppingCartAPI\\Program.cs",
+              "DocumentMoniker": "D:\\Code\\CompileFile\\C#\\Microservices\\New folder\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.ShoppingCartAPI\\Program.cs",
               "RelativeDocumentMoniker": "Mango.Services.ShoppingCartAPI\\Program.cs",
-              "ToolTip": "D:\\Code\\CompileFile\\C#\\Microservices\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.ShoppingCartAPI\\Program.cs",
+              "ToolTip": "D:\\Code\\CompileFile\\C#\\Microservices\\New folder\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.ShoppingCartAPI\\Program.cs",
               "RelativeToolTip": "Mango.Services.ShoppingCartAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-10T15:51:34.891Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "CartAPIController.cs",
-              "DocumentMoniker": "D:\\Code\\CompileFile\\C#\\Microservices\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.ShoppingCartAPI\\Controllers\\CartAPIController.cs",
+              "DocumentMoniker": "D:\\Code\\CompileFile\\C#\\Microservices\\New folder\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.ShoppingCartAPI\\Controllers\\CartAPIController.cs",
               "RelativeDocumentMoniker": "Mango.Services.ShoppingCartAPI\\Controllers\\CartAPIController.cs",
-              "ToolTip": "D:\\Code\\CompileFile\\C#\\Microservices\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.ShoppingCartAPI\\Controllers\\CartAPIController.cs",
-              "RelativeToolTip": "Mango.Services.ShoppingCartAPI\\Controllers\\CartAPIController.cs",
-              "ViewState": "AgIAAHkAAAAAAAAAAAAcwJEAAAAGAAAAAAAAAA==",
+              "ToolTip": "D:\\Code\\CompileFile\\C#\\Microservices\\New folder\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.ShoppingCartAPI\\Controllers\\CartAPIController.cs*",
+              "RelativeToolTip": "Mango.Services.ShoppingCartAPI\\Controllers\\CartAPIController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T15:21:47.105Z"
+              "WhenOpened": "2025-01-10T15:21:47.105Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AuthService.cs",
-              "DocumentMoniker": "D:\\Code\\CompileFile\\C#\\Microservices\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.AuthAPI\\Service\\AuthService.cs",
+              "DocumentMoniker": "D:\\Code\\CompileFile\\C#\\Microservices\\New folder\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.AuthAPI\\Service\\AuthService.cs",
               "RelativeDocumentMoniker": "Mango.Services.AuthAPI\\Service\\AuthService.cs",
-              "ToolTip": "D:\\Code\\CompileFile\\C#\\Microservices\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.AuthAPI\\Service\\AuthService.cs",
+              "ToolTip": "D:\\Code\\CompileFile\\C#\\Microservices\\New folder\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.AuthAPI\\Service\\AuthService.cs",
               "RelativeToolTip": "Mango.Services.AuthAPI\\Service\\AuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -75,11 +93,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IAuthService.cs",
-              "DocumentMoniker": "D:\\Code\\CompileFile\\C#\\Microservices\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.AuthAPI\\Service\\IService\\IAuthService.cs",
+              "DocumentMoniker": "D:\\Code\\CompileFile\\C#\\Microservices\\New folder\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.AuthAPI\\Service\\IService\\IAuthService.cs",
               "RelativeDocumentMoniker": "Mango.Services.AuthAPI\\Service\\IService\\IAuthService.cs",
-              "ToolTip": "D:\\Code\\CompileFile\\C#\\Microservices\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.AuthAPI\\Service\\IService\\IAuthService.cs",
+              "ToolTip": "D:\\Code\\CompileFile\\C#\\Microservices\\New folder\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.AuthAPI\\Service\\IService\\IAuthService.cs",
               "RelativeToolTip": "Mango.Services.AuthAPI\\Service\\IService\\IAuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -87,11 +105,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AuthAPIController.cs",
-              "DocumentMoniker": "D:\\Code\\CompileFile\\C#\\Microservices\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.AuthAPI\\Controllers\\AuthAPIController.cs",
+              "DocumentMoniker": "D:\\Code\\CompileFile\\C#\\Microservices\\New folder\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.AuthAPI\\Controllers\\AuthAPIController.cs",
               "RelativeDocumentMoniker": "Mango.Services.AuthAPI\\Controllers\\AuthAPIController.cs",
-              "ToolTip": "D:\\Code\\CompileFile\\C#\\Microservices\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.AuthAPI\\Controllers\\AuthAPIController.cs",
+              "ToolTip": "D:\\Code\\CompileFile\\C#\\Microservices\\New folder\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.AuthAPI\\Controllers\\AuthAPIController.cs",
               "RelativeToolTip": "Mango.Services.AuthAPI\\Controllers\\AuthAPIController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

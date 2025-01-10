@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\CompileFile\\C#\\Microservices\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.OrderAPI\\Mango.Services.OrderAPI.csproj": {}
+    "D:\\Code\\CompileFile\\C#\\Microservices\\New folder\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.OrderAPI\\Mango.Services.OrderAPI.csproj": {}
   },
   "projects": {
-    "D:\\Code\\CompileFile\\C#\\Microservices\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.OrderAPI\\Mango.Services.OrderAPI.csproj": {
+    "D:\\Code\\CompileFile\\C#\\Microservices\\New folder\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.OrderAPI\\Mango.Services.OrderAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\CompileFile\\C#\\Microservices\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.OrderAPI\\Mango.Services.OrderAPI.csproj",
+        "projectUniqueName": "D:\\Code\\CompileFile\\C#\\Microservices\\New folder\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.OrderAPI\\Mango.Services.OrderAPI.csproj",
         "projectName": "Mango.Services.OrderAPI",
-        "projectPath": "D:\\Code\\CompileFile\\C#\\Microservices\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.OrderAPI\\Mango.Services.OrderAPI.csproj",
+        "projectPath": "D:\\Code\\CompileFile\\C#\\Microservices\\New folder\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.OrderAPI\\Mango.Services.OrderAPI.csproj",
         "packagesPath": "C:\\Users\\royal\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\CompileFile\\C#\\Microservices\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.OrderAPI\\obj\\",
+        "outputPath": "D:\\Code\\CompileFile\\C#\\Microservices\\New folder\\Microservice__1stPrj_Mango\\Mango\\Mango.Services.OrderAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Code\\VisualStudio\\Microsoft Visual Studio\\Shared\\NuGetPackages"
