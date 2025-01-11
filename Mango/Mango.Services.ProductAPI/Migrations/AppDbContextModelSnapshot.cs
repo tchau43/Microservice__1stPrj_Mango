@@ -90,6 +90,870 @@ namespace Mango.Services.ProductAPI.Migrations
                             ImageUrl = "https://placehold.co/600x400",
                             Name = "Pav Bhaji",
                             Price = 15.0
+                        },
+                        new
+                        {
+                            ProductId = 5,
+                            CategoryName = "Entree",
+                            Description = "Tender chicken pieces in a creamy spiced tomato sauce.",
+                            ImageUrl = "https://placehold.co/600x400?text=Chicken+Tikka+Masala",
+                            Name = "Chicken Tikka Masala",
+                            Price = 13.99
+                        },
+                        new
+                        {
+                            ProductId = 6,
+                            CategoryName = "Entree",
+                            Description = "Juicy beef patty with lettuce, tomato, and cheese in a toasted bun.",
+                            ImageUrl = "https://placehold.co/600x400?text=Beef+Burger",
+                            Name = "Beef Burger",
+                            Price = 11.99
+                        },
+                        new
+                        {
+                            ProductId = 7,
+                            CategoryName = "Appetizer",
+                            Description = "Crispy spring rolls filled with fresh vegetables.",
+                            ImageUrl = "https://placehold.co/600x400?text=Vegetable+Spring+Rolls",
+                            Name = "Vegetable Spring Rolls",
+                            Price = 6.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 8,
+                            CategoryName = "Beverage",
+                            Description = "Refreshing yogurt-based mango drink.",
+                            ImageUrl = "https://placehold.co/600x400?text=Mango+Lassi",
+                            Name = "Mango Lassi",
+                            Price = 4.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 9,
+                            CategoryName = "Dessert",
+                            Description = "Warm chocolate cake with a molten chocolate center.",
+                            ImageUrl = "https://placehold.co/600x400?text=Chocolate+Lava+Cake",
+                            Name = "Chocolate Lava Cake",
+                            Price = 7.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 10,
+                            CategoryName = "Soup",
+                            Description = "Creamy tomato soup garnished with fresh herbs.",
+                            ImageUrl = "https://placehold.co/600x400?text=Tomato+Soup",
+                            Name = "Tomato Soup",
+                            Price = 5.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 11,
+                            CategoryName = "Entree",
+                            Description = "Fresh salmon fillet grilled to perfection with lemon butter.",
+                            ImageUrl = "https://placehold.co/600x400?text=Grilled+Salmon",
+                            Name = "Grilled Salmon",
+                            Price = 18.989999999999998
+                        },
+                        new
+                        {
+                            ProductId = 12,
+                            CategoryName = "Appetizer",
+                            Description = "Toasted bread topped with garlic and herbs.",
+                            ImageUrl = "https://placehold.co/600x400?text=Garlic+Bread",
+                            Name = "Garlic Bread",
+                            Price = 4.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 13,
+                            CategoryName = "Beverage",
+                            Description = "Chilled black tea served with ice and lemon.",
+                            ImageUrl = "https://placehold.co/600x400?text=Iced+Tea",
+                            Name = "Iced Tea",
+                            Price = 2.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 14,
+                            CategoryName = "Dessert",
+                            Description = "Classic creamy cheesecake with a graham cracker crust.",
+                            ImageUrl = "https://placehold.co/600x400?text=Cheesecake",
+                            Name = "Cheesecake",
+                            Price = 6.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 15,
+                            CategoryName = "Soup",
+                            Description = "Rich beef broth with caramelized onions and melted cheese.",
+                            ImageUrl = "https://placehold.co/600x400?text=French+Onion+Soup",
+                            Name = "French Onion Soup",
+                            Price = 6.5
+                        },
+                        new
+                        {
+                            ProductId = 16,
+                            CategoryName = "Entree",
+                            Description = "Tender pork ribs smothered in BBQ sauce.",
+                            ImageUrl = "https://placehold.co/600x400?text=BBQ+Ribs",
+                            Name = "BBQ Ribs",
+                            Price = 19.989999999999998
+                        },
+                        new
+                        {
+                            ProductId = 17,
+                            CategoryName = "Appetizer",
+                            Description = "Grilled bread topped with fresh tomatoes, basil, and olive oil.",
+                            ImageUrl = "https://placehold.co/600x400?text=Bruschetta",
+                            Name = "Bruschetta",
+                            Price = 5.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 18,
+                            CategoryName = "Beverage",
+                            Description = "Freshly squeezed lemonade with a hint of mint.",
+                            ImageUrl = "https://placehold.co/600x400?text=Lemonade",
+                            Name = "Lemonade",
+                            Price = 3.5
+                        },
+                        new
+                        {
+                            ProductId = 19,
+                            CategoryName = "Dessert",
+                            Description = "Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cream.",
+                            ImageUrl = "https://placehold.co/600x400?text=Tiramisu",
+                            Name = "Tiramisu",
+                            Price = 6.5
+                        },
+                        new
+                        {
+                            ProductId = 20,
+                            CategoryName = "Soup",
+                            Description = "Hearty vegetable soup with beans and pasta.",
+                            ImageUrl = "https://placehold.co/600x400?text=Minestrone+Soup",
+                            Name = "Minestrone Soup",
+                            Price = 5.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 21,
+                            CategoryName = "Entree",
+                            Description = "Grilled chicken breast served over fettuccine in a creamy Alfredo sauce.",
+                            ImageUrl = "https://placehold.co/600x400?text=Chicken+Alfredo",
+                            Name = "Chicken Alfredo",
+                            Price = 16.989999999999998
+                        },
+                        new
+                        {
+                            ProductId = 22,
+                            CategoryName = "Appetizer",
+                            Description = "Mushroom caps filled with cheese and herbs, baked to perfection.",
+                            ImageUrl = "https://placehold.co/600x400?text=Stuffed+Mushrooms",
+                            Name = "Stuffed Mushrooms",
+                            Price = 7.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 23,
+                            CategoryName = "Beverage",
+                            Description = "Strong and rich Italian coffee served in a small cup.",
+                            ImageUrl = "https://placehold.co/600x400?text=Espresso",
+                            Name = "Espresso",
+                            Price = 3.0
+                        },
+                        new
+                        {
+                            ProductId = 24,
+                            CategoryName = "Dessert",
+                            Description = "Traditional apple pie with a flaky crust and cinnamon-spiced filling.",
+                            ImageUrl = "https://placehold.co/600x400?text=Apple+Pie",
+                            Name = "Apple Pie",
+                            Price = 5.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 25,
+                            CategoryName = "Soup",
+                            Description = "Creamy soup loaded with clams, potatoes, and vegetables.",
+                            ImageUrl = "https://placehold.co/600x400?text=Clam+Chowder",
+                            Name = "Clam Chowder",
+                            Price = 6.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 26,
+                            CategoryName = "Entree",
+                            Description = "Grilled steak served with crispy french fries and herb butter.",
+                            ImageUrl = "https://placehold.co/600x400?text=Steak+Frites",
+                            Name = "Steak Frites",
+                            Price = 21.989999999999998
+                        },
+                        new
+                        {
+                            ProductId = 27,
+                            CategoryName = "Appetizer",
+                            Description = "Fried mozzarella cheese sticks served with marinara sauce.",
+                            ImageUrl = "https://placehold.co/600x400?text=Mozzarella+Sticks",
+                            Name = "Mozzarella Sticks",
+                            Price = 6.5
+                        },
+                        new
+                        {
+                            ProductId = 28,
+                            CategoryName = "Beverage",
+                            Description = "A blend of fresh spinach, banana, and almond milk.",
+                            ImageUrl = "https://placehold.co/600x400?text=Green+Smoothie",
+                            Name = "Green Smoothie",
+                            Price = 4.5
+                        },
+                        new
+                        {
+                            ProductId = 29,
+                            CategoryName = "Dessert",
+                            Description = "Decadent brownie topped with creamy cheesecake.",
+                            ImageUrl = "https://placehold.co/600x400?text=Cheesecake+Brownie",
+                            Name = "Cheesecake Brownie",
+                            Price = 7.5
+                        },
+                        new
+                        {
+                            ProductId = 30,
+                            CategoryName = "Soup",
+                            Description = "Hearty lentil soup with vegetables and spices.",
+                            ImageUrl = "https://placehold.co/600x400?text=Lentil+Soup",
+                            Name = "Lentil Soup",
+                            Price = 5.5
+                        },
+                        new
+                        {
+                            ProductId = 31,
+                            CategoryName = "Entree",
+                            Description = "Succulent shrimp sautéed in garlic butter sauce over linguine.",
+                            ImageUrl = "https://placehold.co/600x400?text=Shrimp+Scampi",
+                            Name = "Shrimp Scampi",
+                            Price = 17.989999999999998
+                        },
+                        new
+                        {
+                            ProductId = 32,
+                            CategoryName = "Appetizer",
+                            Description = "Spicy grilled chicken wings served with blue cheese dip.",
+                            ImageUrl = "https://placehold.co/600x400?text=Chicken+Wings",
+                            Name = "Chicken Wings",
+                            Price = 8.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 33,
+                            CategoryName = "Beverage",
+                            Description = "Chilled coffee served over ice with optional milk and sweetener.",
+                            ImageUrl = "https://placehold.co/600x400?text=Iced+Coffee",
+                            Name = "Iced Coffee",
+                            Price = 3.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 34,
+                            CategoryName = "Dessert",
+                            Description = "Classic banana split with ice cream, chocolate syrup, and cherries.",
+                            ImageUrl = "https://placehold.co/600x400?text=Banana+Split",
+                            Name = "Banana Split",
+                            Price = 6.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 35,
+                            CategoryName = "Soup",
+                            Description = "Comforting soup with tender chicken, noodles, and vegetables.",
+                            ImageUrl = "https://placehold.co/600x400?text=Chicken+Noodle+Soup",
+                            Name = "Chicken Noodle Soup",
+                            Price = 5.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 36,
+                            CategoryName = "Entree",
+                            Description = "Crispy battered fish served with golden french fries and tartar sauce.",
+                            ImageUrl = "https://placehold.co/600x400?text=Fish+and+Chips",
+                            Name = "Fish and Chips",
+                            Price = 15.99
+                        },
+                        new
+                        {
+                            ProductId = 37,
+                            CategoryName = "Appetizer",
+                            Description = "Tortilla chips topped with cheese, jalapeños, sour cream, and salsa.",
+                            ImageUrl = "https://placehold.co/600x400?text=Nachos+Supreme",
+                            Name = "Nachos Supreme",
+                            Price = 9.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 38,
+                            CategoryName = "Beverage",
+                            Description = "Refreshing cocktail with rum, lime, mint, sugar, and soda water.",
+                            ImageUrl = "https://placehold.co/600x400?text=Mojito",
+                            Name = "Mojito",
+                            Price = 5.5
+                        },
+                        new
+                        {
+                            ProductId = 39,
+                            CategoryName = "Dessert",
+                            Description = "Warm apple dessert topped with a crumbly oat topping.",
+                            ImageUrl = "https://placehold.co/600x400?text=Apple+Crumble",
+                            Name = "Apple Crumble",
+                            Price = 6.5
+                        },
+                        new
+                        {
+                            ProductId = 40,
+                            CategoryName = "Soup",
+                            Description = "Creamy pumpkin soup seasoned with spices and garnished with cream.",
+                            ImageUrl = "https://placehold.co/600x400?text=Pumpkin+Soup",
+                            Name = "Pumpkin Soup",
+                            Price = 5.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 41,
+                            CategoryName = "Entree",
+                            Description = "Tender beef in a creamy mushroom sauce served over egg noodles.",
+                            ImageUrl = "https://placehold.co/600x400?text=Beef+Stroganoff",
+                            Name = "Beef Stroganoff",
+                            Price = 17.989999999999998
+                        },
+                        new
+                        {
+                            ProductId = 42,
+                            CategoryName = "Appetizer",
+                            Description = "Soft dough knots brushed with garlic butter and herbs.",
+                            ImageUrl = "https://placehold.co/600x400?text=Garlic+Knots",
+                            Name = "Garlic Knots",
+                            Price = 4.5
+                        },
+                        new
+                        {
+                            ProductId = 43,
+                            CategoryName = "Beverage",
+                            Description = "Spiced tea latte made with black tea, spices, milk, and sweetener.",
+                            ImageUrl = "https://placehold.co/600x400?text=Chai+Latte",
+                            Name = "Chai Latte",
+                            Price = 4.0
+                        },
+                        new
+                        {
+                            ProductId = 44,
+                            CategoryName = "Dessert",
+                            Description = "Silky smooth Italian dessert made with sweetened cream and gelatin.",
+                            ImageUrl = "https://placehold.co/600x400?text=Panna+Cotta",
+                            Name = "Panna Cotta",
+                            Price = 6.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 45,
+                            CategoryName = "Soup",
+                            Description = "Spicy and sour Thai soup with shrimp, mushrooms, and herbs.",
+                            ImageUrl = "https://placehold.co/600x400?text=Tom+Yum+Soup",
+                            Name = "Tom Yum Soup",
+                            Price = 6.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 46,
+                            CategoryName = "Entree",
+                            Description = "Slow-cooked lamb in a rich and flavorful curry sauce.",
+                            ImageUrl = "https://placehold.co/600x400?text=Lamb+Curry",
+                            Name = "Lamb Curry",
+                            Price = 18.989999999999998
+                        },
+                        new
+                        {
+                            ProductId = 47,
+                            CategoryName = "Appetizer",
+                            Description = "Crispy battered onion rings served with dipping sauce.",
+                            ImageUrl = "https://placehold.co/600x400?text=Onion+Rings",
+                            Name = "Onion Rings",
+                            Price = 5.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 48,
+                            CategoryName = "Beverage",
+                            Description = "Rich and creamy hot chocolate topped with whipped cream.",
+                            ImageUrl = "https://placehold.co/600x400?text=Hot+Chocolate",
+                            Name = "Hot Chocolate",
+                            Price = 3.5
+                        },
+                        new
+                        {
+                            ProductId = 49,
+                            CategoryName = "Dessert",
+                            Description = "Tangy key lime pie with a graham cracker crust and whipped cream.",
+                            ImageUrl = "https://placehold.co/600x400?text=Key+Lime+Pie",
+                            Name = "Key Lime Pie",
+                            Price = 6.5
+                        },
+                        new
+                        {
+                            ProductId = 50,
+                            CategoryName = "Soup",
+                            Description = "Hearty French lentil soup with vegetables and herbs.",
+                            ImageUrl = "https://placehold.co/600x400?text=French+Lentil+Soup",
+                            Name = "French Lentil Soup",
+                            Price = 6.0
+                        },
+                        new
+                        {
+                            ProductId = 51,
+                            CategoryName = "Entree",
+                            Description = "Layers of pasta, vegetables, ricotta, and marinara sauce baked to perfection.",
+                            ImageUrl = "https://placehold.co/600x400?text=Vegetable+Lasagna",
+                            Name = "Vegetable Lasagna",
+                            Price = 15.99
+                        },
+                        new
+                        {
+                            ProductId = 52,
+                            CategoryName = "Appetizer",
+                            Description = "Creamy and spicy dip made with shredded chicken and buffalo sauce.",
+                            ImageUrl = "https://placehold.co/600x400?text=Buffalo+Chicken+Dip",
+                            Name = "Buffalo Chicken Dip",
+                            Price = 7.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 53,
+                            CategoryName = "Beverage",
+                            Description = "Chilled green tea latte made with matcha powder and milk.",
+                            ImageUrl = "https://placehold.co/600x400?text=Iced+Matcha+Latte",
+                            Name = "Iced Matcha Latte",
+                            Price = 4.5
+                        },
+                        new
+                        {
+                            ProductId = 54,
+                            CategoryName = "Dessert",
+                            Description = "Delicious shortcake layered with fresh strawberries and whipped cream.",
+                            ImageUrl = "https://placehold.co/600x400?text=Strawberry+Shortcake",
+                            Name = "Strawberry Shortcake",
+                            Price = 6.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 55,
+                            CategoryName = "Soup",
+                            Description = "Traditional Vietnamese noodle soup with beef and aromatic herbs.",
+                            ImageUrl = "https://placehold.co/600x400?text=Beef+Pho",
+                            Name = "Beef Pho",
+                            Price = 12.99
+                        },
+                        new
+                        {
+                            ProductId = 56,
+                            CategoryName = "Entree",
+                            Description = "Grilled chicken glazed with sweet and savory teriyaki sauce.",
+                            ImageUrl = "https://placehold.co/600x400?text=Teriyaki+Chicken",
+                            Name = "Teriyaki Chicken",
+                            Price = 14.99
+                        },
+                        new
+                        {
+                            ProductId = 57,
+                            CategoryName = "Appetizer",
+                            Description = "Creamy hummus served with pita bread and fresh vegetables.",
+                            ImageUrl = "https://placehold.co/600x400?text=Hummus+Platter",
+                            Name = "Hummus Platter",
+                            Price = 8.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 58,
+                            CategoryName = "Beverage",
+                            Description = "Cold-pressed orange juice made from fresh oranges.",
+                            ImageUrl = "https://placehold.co/600x400?text=Fresh+Orange+Juice",
+                            Name = "Fresh Orange Juice",
+                            Price = 3.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 59,
+                            CategoryName = "Dessert",
+                            Description = "Light and airy chocolate mousse topped with whipped cream.",
+                            ImageUrl = "https://placehold.co/600x400?text=Chocolate+Mousse",
+                            Name = "Chocolate Mousse",
+                            Price = 6.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 60,
+                            CategoryName = "Soup",
+                            Description = "Spicy soup with chicken, tomatoes, beans, and tortilla strips.",
+                            ImageUrl = "https://placehold.co/600x400?text=Chicken+Tortilla+Soup",
+                            Name = "Chicken Tortilla Soup",
+                            Price = 6.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 61,
+                            CategoryName = "Entree",
+                            Description = "Succulent shrimp in creamy Alfredo sauce served over fettuccine.",
+                            ImageUrl = "https://placehold.co/600x400?text=Shrimp+Alfredo",
+                            Name = "Shrimp Alfredo",
+                            Price = 16.989999999999998
+                        },
+                        new
+                        {
+                            ProductId = 62,
+                            CategoryName = "Appetizer",
+                            Description = "Creamy dip made with spinach, artichokes, and melted cheese.",
+                            ImageUrl = "https://placehold.co/600x400?text=Spinach+Artichoke+Dip",
+                            Name = "Spinach Artichoke Dip",
+                            Price = 7.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 63,
+                            CategoryName = "Beverage",
+                            Description = "Smooth and rich cold brew coffee served over ice.",
+                            ImageUrl = "https://placehold.co/600x400?text=Cold+Brew+Coffee",
+                            Name = "Cold Brew Coffee",
+                            Price = 3.5
+                        },
+                        new
+                        {
+                            ProductId = 64,
+                            CategoryName = "Dessert",
+                            Description = "Tangy lemon tart with a buttery crust and sweet glaze.",
+                            ImageUrl = "https://placehold.co/600x400?text=Lemon+Tart",
+                            Name = "Lemon Tart",
+                            Price = 6.5
+                        },
+                        new
+                        {
+                            ProductId = 65,
+                            CategoryName = "Soup",
+                            Description = "Traditional Japanese soup with miso paste, tofu, and seaweed.",
+                            ImageUrl = "https://placehold.co/600x400?text=Miso+Soup",
+                            Name = "Miso Soup",
+                            Price = 4.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 66,
+                            CategoryName = "Entree",
+                            Description = "Soft tortillas filled with seasoned beef, lettuce, and cheese.",
+                            ImageUrl = "https://placehold.co/600x400?text=Beef+Tacos",
+                            Name = "Beef Tacos",
+                            Price = 13.99
+                        },
+                        new
+                        {
+                            ProductId = 67,
+                            CategoryName = "Appetizer",
+                            Description = "Classic deviled eggs with a creamy yolk filling.",
+                            ImageUrl = "https://placehold.co/600x400?text=Deviled+Eggs",
+                            Name = "Deviled Eggs",
+                            Price = 5.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 68,
+                            CategoryName = "Beverage",
+                            Description = "Refreshing iced tea infused with herbal flavors.",
+                            ImageUrl = "https://placehold.co/600x400?text=Herbal+Iced+Tea",
+                            Name = "Herbal Iced Tea",
+                            Price = 3.5
+                        },
+                        new
+                        {
+                            ProductId = 69,
+                            CategoryName = "Dessert",
+                            Description = "Light meringue dessert topped with whipped cream and fresh fruits.",
+                            ImageUrl = "https://placehold.co/600x400?text=Pavlova",
+                            Name = "Pavlova",
+                            Price = 7.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 70,
+                            CategoryName = "Soup",
+                            Description = "Creamy New England clam chowder with tender clams and potatoes.",
+                            ImageUrl = "https://placehold.co/600x400?text=Clam+Chowder",
+                            Name = "Clam Chowder",
+                            Price = 6.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 71,
+                            CategoryName = "Entree",
+                            Description = "Breaded eggplant slices layered with marinara and mozzarella cheese.",
+                            ImageUrl = "https://placehold.co/600x400?text=Eggplant+Parmesan",
+                            Name = "Eggplant Parmesan",
+                            Price = 14.99
+                        },
+                        new
+                        {
+                            ProductId = 72,
+                            CategoryName = "Appetizer",
+                            Description = "Grilled chicken skewers served with peanut sauce.",
+                            ImageUrl = "https://placehold.co/600x400?text=Chicken+Satay",
+                            Name = "Chicken Satay",
+                            Price = 7.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 73,
+                            CategoryName = "Beverage",
+                            Description = "Traditional Japanese green tea made from matcha powder.",
+                            ImageUrl = "https://placehold.co/600x400?text=Matcha+Green+Tea",
+                            Name = "Matcha Green Tea",
+                            Price = 3.5
+                        },
+                        new
+                        {
+                            ProductId = 74,
+                            CategoryName = "Dessert",
+                            Description = "Sweet pastry made of layers of filo filled with chopped nuts and honey.",
+                            ImageUrl = "https://placehold.co/600x400?text=Baklava",
+                            Name = "Baklava",
+                            Price = 6.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 75,
+                            CategoryName = "Soup",
+                            Description = "Smooth and creamy pumpkin soup seasoned with spices.",
+                            ImageUrl = "https://placehold.co/600x400?text=Pumpkin+Bisque",
+                            Name = "Pumpkin Bisque",
+                            Price = 5.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 76,
+                            CategoryName = "Entree",
+                            Description = "Grilled tortilla filled with seasoned chicken and melted cheese.",
+                            ImageUrl = "https://placehold.co/600x400?text=Chicken+Quesadilla",
+                            Name = "Chicken Quesadilla",
+                            Price = 12.99
+                        },
+                        new
+                        {
+                            ProductId = 77,
+                            CategoryName = "Appetizer",
+                            Description = "Bell peppers stuffed with rice, vegetables, and cheese.",
+                            ImageUrl = "https://placehold.co/600x400?text=Stuffed+Peppers",
+                            Name = "Stuffed Peppers",
+                            Price = 8.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 78,
+                            CategoryName = "Beverage",
+                            Description = "Blended matcha green tea with ice and milk for a refreshing smoothie.",
+                            ImageUrl = "https://placehold.co/600x400?text=Iced+Matcha+Smoothie",
+                            Name = "Iced Matcha Smoothie",
+                            Price = 4.5
+                        },
+                        new
+                        {
+                            ProductId = 79,
+                            CategoryName = "Dessert",
+                            Description = "Colorful tart filled with custard and topped with fresh fruits.",
+                            ImageUrl = "https://placehold.co/600x400?text=Fruit+Tart",
+                            Name = "Fruit Tart",
+                            Price = 7.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 80,
+                            CategoryName = "Soup",
+                            Description = "Healthy vegetable soup packed with seasonal veggies.",
+                            ImageUrl = "https://placehold.co/600x400?text=Vegetable+Soup",
+                            Name = "Vegetable Soup",
+                            Price = 5.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 81,
+                            CategoryName = "Entree",
+                            Description = "Large flour tortilla filled with seasoned beef, beans, and cheese.",
+                            ImageUrl = "https://placehold.co/600x400?text=Beef+Burrito",
+                            Name = "Beef Burrito",
+                            Price = 13.99
+                        },
+                        new
+                        {
+                            ProductId = 82,
+                            CategoryName = "Appetizer",
+                            Description = "Grilled bread topped with diced tomatoes, garlic, and basil.",
+                            ImageUrl = "https://placehold.co/600x400?text=Bruschetta",
+                            Name = "Bruschetta",
+                            Price = 5.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 83,
+                            CategoryName = "Beverage",
+                            Description = "Creamy latte made with green tea and steamed milk.",
+                            ImageUrl = "https://placehold.co/600x400?text=Green+Tea+Latte",
+                            Name = "Green Tea Latte",
+                            Price = 4.5
+                        },
+                        new
+                        {
+                            ProductId = 84,
+                            CategoryName = "Dessert",
+                            Description = "Freshly baked cookies loaded with chocolate chips.",
+                            ImageUrl = "https://placehold.co/600x400?text=Chocolate+Chip+Cookies",
+                            Name = "Chocolate Chip Cookies",
+                            Price = 5.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 85,
+                            CategoryName = "Soup",
+                            Description = "Creamy tomato soup infused with fresh basil.",
+                            ImageUrl = "https://placehold.co/600x400?text=Tomato+Basil+Soup",
+                            Name = "Tomato Basil Soup",
+                            Price = 5.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 86,
+                            CategoryName = "Entree",
+                            Description = "Breaded chicken breast topped with marinara and melted cheese.",
+                            ImageUrl = "https://placehold.co/600x400?text=Chicken+Parmesan",
+                            Name = "Chicken Parmesan",
+                            Price = 16.989999999999998
+                        },
+                        new
+                        {
+                            ProductId = 87,
+                            CategoryName = "Appetizer",
+                            Description = "Spicy roasted cauliflower florets served with dipping sauce.",
+                            ImageUrl = "https://placehold.co/600x400?text=Buffalo+Cauliflower+Bites",
+                            Name = "Buffalo Cauliflower Bites",
+                            Price = 7.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 88,
+                            CategoryName = "Beverage",
+                            Description = "Espresso-based coffee drink with steamed milk foam.",
+                            ImageUrl = "https://placehold.co/600x400?text=Cappuccino",
+                            Name = "Cappuccino",
+                            Price = 3.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 89,
+                            CategoryName = "Dessert",
+                            Description = "Warm chocolate cake with a gooey molten center.",
+                            ImageUrl = "https://placehold.co/600x400?text=Molten+Chocolate+Cake",
+                            Name = "Molten Chocolate Cake",
+                            Price = 7.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 90,
+                            CategoryName = "Soup",
+                            Description = "Creamy chowder loaded with clams, potatoes, and vegetables.",
+                            ImageUrl = "https://placehold.co/600x400?text=Clam+Chowder",
+                            Name = "Clam Chowder",
+                            Price = 6.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 91,
+                            CategoryName = "Entree",
+                            Description = "Mixed vegetables stir-fried in a savory sauce served over rice.",
+                            ImageUrl = "https://placehold.co/600x400?text=Vegetable+Stir+Fry",
+                            Name = "Vegetable Stir Fry",
+                            Price = 14.99
+                        },
+                        new
+                        {
+                            ProductId = 92,
+                            CategoryName = "Appetizer",
+                            Description = "Shrimp sautéed with garlic and herbs.",
+                            ImageUrl = "https://placehold.co/600x400?text=Garlic+Shrimp",
+                            Name = "Garlic Shrimp",
+                            Price = 8.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 93,
+                            CategoryName = "Beverage",
+                            Description = "Blend of mixed berries, yogurt, and honey.",
+                            ImageUrl = "https://placehold.co/600x400?text=Berry+Smoothie",
+                            Name = "Berry Smoothie",
+                            Price = 4.5
+                        },
+                        new
+                        {
+                            ProductId = 94,
+                            CategoryName = "Dessert",
+                            Description = "Sweet and nutty pecan pie with a flaky crust.",
+                            ImageUrl = "https://placehold.co/600x400?text=Pecan+Pie",
+                            Name = "Pecan Pie",
+                            Price = 6.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 95,
+                            CategoryName = "Soup",
+                            Description = "Hearty soup with tender beef, barley, and vegetables.",
+                            ImageUrl = "https://placehold.co/600x400?text=Beef+and+Barley+Soup",
+                            Name = "Beef and Barley Soup",
+                            Price = 6.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 96,
+                            CategoryName = "Entree",
+                            Description = "Breaded and fried pork cutlet served with lemon wedges.",
+                            ImageUrl = "https://placehold.co/600x400?text=Pork+Schnitzel",
+                            Name = "Pork Schnitzel",
+                            Price = 17.989999999999998
+                        },
+                        new
+                        {
+                            ProductId = 97,
+                            CategoryName = "Appetizer",
+                            Description = "Fresh mozzarella, tomatoes, and basil drizzled with balsamic glaze.",
+                            ImageUrl = "https://placehold.co/600x400?text=Caprese+Salad",
+                            Name = "Caprese Salad",
+                            Price = 7.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 98,
+                            CategoryName = "Beverage",
+                            Description = "Refreshing water infused with a mix of fresh fruits.",
+                            ImageUrl = "https://placehold.co/600x400?text=Fruit+Infused+Water",
+                            Name = "Fruit Infused Water",
+                            Price = 2.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 99,
+                            CategoryName = "Dessert",
+                            Description = "Warm cobbler filled with sweet peaches and topped with a biscuit crust.",
+                            ImageUrl = "https://placehold.co/600x400?text=Peach+Cobbler",
+                            Name = "Peach Cobbler",
+                            Price = 6.9900000000000002
+                        },
+                        new
+                        {
+                            ProductId = 100,
+                            CategoryName = "Soup",
+                            Description = "Creamy sweet potato soup seasoned with cinnamon and nutmeg.",
+                            ImageUrl = "https://placehold.co/600x400?text=Sweet+Potato+Soup",
+                            Name = "Sweet Potato Soup",
+                            Price = 5.9900000000000002
                         });
                 });
 #pragma warning restore 612, 618
